@@ -10,7 +10,7 @@ Since this Petfinder is a real service and we don't want to hammer their API, we
 
 `"dev:mock": "cross-env PET_MOCK=mock npm run dev",`.
 
-Now any time you run this `npm run dev:mock` instead of `npm run dev` you'll get mock data and not hit the API. This will work offline and if the API is down or taking too long.
+Now any time you run this `npm run dev:mock` instead of `npm run dev` you'll get mock data and not hit the API. This will work offline and if the API is down or taking too long (you may need to delete the .cache and .dist folders for the mock api to work).
 
 Now let's go install the client. Run `npm install @frontendmasters/pet`.
 
